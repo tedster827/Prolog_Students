@@ -1,0 +1,53 @@
+Teddy Williams
+Prolog Assignment
+
+This program was designed to check to see if a student mets the requirements to graduate.
+
+To run this program you must run binprolog.
+Command:
+bp
+
+Then you have to compile the program.
+Command:
+
+[Williams].
+
+Now you have access to these queries:
+
+>>>>Query to see if a student is graduating:
+isagrad(student_name).
+
+>>>>Query to see all the elective requirements fulfilled by a student:
+pass(X, student_name).
+
+for more course look ups type ; after the previous query.
+
+Fact find for department:
+department(name).
+
+posiable yes answers: comsci math physics
+
+Fact find for courses:
+course(name, department).
+
+Fact find for core courses:
+core(name).
+
+Fact find for students:
+student(name).
+
+Fact find for enrollment:
+enrolled(course_name, student_name).
+
+Query to see if a student has passed a course:
+pass(course_name, student_name).
+
+Query to see if a student has passed a cs class:
+csmetelec(student_name).
+
+Query to see if a student has passed a math class:
+mathmetelec(student_name).
+
+Query to see if a student has passed a physcis class:
+physmetelec(student_name).
+
